@@ -1,0 +1,72 @@
+<style>
+	div.att-container{
+		border: solid 1px lightgray;
+		border-radius: 5px;
+		width: 200px;
+		height: 200px;
+		position: relative;
+		font-family: sans-serif;
+	}
+	
+	div.att-preview-block{
+		margin: auto;
+		margin-top: 25%;
+		width: 30%;
+		height: 30%;
+		border-radius: 8px;
+	}
+	
+	div.att-preview-block span
+	, div.att-filetype span{
+	    padding-top: 28%;
+		display: block;
+		text-align: center;
+	}
+	
+	div.att-file-details{
+		display: flex;
+		position: absolute;
+		bottom: 10%;
+	}
+	
+	div.att-file-details div.att-filetype{
+		height: 15px;
+		width: 15px;
+		margin: 0px 15px;
+		border-radius: 2px;
+	}
+	
+	span.att-filename{
+		font-size: small;
+	}
+	
+	/*********************/
+	
+	div.att-pdf-file {
+		background-color: #e04025;
+		color: white;
+	}
+	
+	div.att-preview-block.att-pdf-file{
+		font-size: x-large;
+		font-weight: bold;	
+	}
+	
+	div.att-file-details div.att-filetype.att-pdf-file{
+		font-size: 7px;
+		font-weight: bold;
+	}
+	
+</style>
+
+<div class="att-container">
+	<div class="att-preview-block att-pdf-file">
+		<span>PDF</span>
+	</div>
+	<div class="att-file-details">
+		<div class="att-filetype att-pdf-file">
+			<span>PDF</span>
+		</div>
+		<span class="att-filename">final_invoice.pdf</span>
+	</div>
+</div>
