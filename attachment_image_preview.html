@@ -1,0 +1,68 @@
+<style>
+	div.att-container{
+		border: solid 1px lightgray;
+		border-radius: 5px;
+		width: 200px;
+		height: 200px;
+		position: relative;
+		font-family: sans-serif;
+	}
+	
+	div.att-preview-image{
+		width: 100%;
+		height: 75%;
+		border-radius: 5px 5px 0px 0px;
+		background: lightgray url(https://media.discordapp.net/attachments/886737487970566164/1070898311344685136/ui.png) no-repeat center;
+		background-size: cover;
+	}
+	
+	div.att-file-details{
+		display: flex;
+		position: absolute;
+		bottom: 10%;
+	}
+	
+	div.att-file-details div.att-fake-file-icon
+	,div.att-file-details div.att-filetype{
+		height: 15px;
+		width: 15px;
+		margin: 0px 15px;
+		border-radius: 2px;
+	}
+	
+	span.att-filename{
+		font-size: small;
+	}
+	
+	div.att-file-details div.att-fake-file-icon{
+		background: white url(https://media.discordapp.net/attachments/886737487970566164/1014214814815502367/email_02.png) no-repeat top;
+		background-size: cover;
+	}
+	
+	/*********************/
+	
+	div.att-pdf-file {
+		background-color: #e04025;
+		color: white;
+	}
+	
+	div.att-preview-block.att-pdf-file{
+		font-size: x-large;
+		font-weight: bold;	
+	}
+	
+	div.att-file-details div.att-filetype.att-pdf-file{
+		font-size: 7px;
+		font-weight: bold;
+	}
+	
+</style>
+
+<div class="att-container">
+	<div class="att-preview-image">
+	</div>
+	<div class="att-file-details">
+		<div class="att-fake-file-icon"></div>
+		<span class="att-filename">final_invoice.pdf</span>
+	</div>
+</div>
